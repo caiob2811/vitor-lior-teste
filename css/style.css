@@ -1238,7 +1238,7 @@ footer {
         color: #fff;
         line-height: 1.2;
         position: relative;
-        top: 440px;
+        top: 422px;
         margin-left: 54px;
         z-index: 4;
         font-weight: 600;
@@ -1250,7 +1250,7 @@ footer {
         line-height: 1.2;
         margin-bottom: 12px;
         position: relative;
-        top: 460px;
+        top: 424px;
         text-align: center;
         margin-left: -5px;
         text-wrap: wrap;
@@ -1269,7 +1269,7 @@ footer {
         margin-left: 0px;
         z-index: 2;
         position: relative;
-        top: 473px;
+        top: 455px;
     }
 
     .btn:hover {
