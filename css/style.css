@@ -133,36 +133,9 @@ span{
     /* color: #2980b9; */
     color: #ffffff;
 }
-/*Fim navbar*/
-
-/* .sobre-mim {
-    padding-bottom: 1.2rem;
-}
-
-.sobre-mim-box {
-    text-align: center;
-    padding: 0%;
-}
-
-.sobre-mim2 {
-    padding-bottom: 2px;
-}
-
-#quem-sou-eu {
-    background-color: #ffffff;
-    padding: 2% 3%;
-    line-height: 1.5;
-    z-index: 1;
-    position: relative;
-}
-
-.texto {
-    color: #303131;
-    font-weight: 500;
-} */
 
  .testemunha-color {
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 30px 0;
 }
 
@@ -922,10 +895,6 @@ footer {
         color: #fff;
     }
 
-    .navbar-brand img {
-       /*  display: flex; */
-    }
-
     .titulo, .subtitulo {
         position: relative;
         /*z-index: 4; /* Aumentado para garantir que fique acima do .vitor */
@@ -954,7 +923,7 @@ footer {
     .navbar-brand img {
         width: 140px;
         position: absolute;
-        top: 332px;
+        top: 365px;
         left: 110px;
         z-index: 4; /*Fica acima de tudo*/
     }
@@ -976,12 +945,10 @@ footer {
         color: #fff;
         line-height: 1.2;
         position: relative;
-        top: 336px;
+        top: 367px;
         margin-left: 40px;
         z-index: 4;
         font-weight: 600;
-
-
     }
 
     .titulo span {
@@ -994,14 +961,12 @@ footer {
         line-height: 1.2;
         margin-bottom: 12px;
         position: relative;
-        top: 341px;
+        top: 368px;
         text-align: center;
         margin-left: -5px; 
         text-wrap: wrap;
         z-index: 4;
         padding: 0px 8px;
-
-
     }
 
     .btn {
@@ -1015,7 +980,7 @@ footer {
         margin-left: 0px;
         z-index: 2;
         position: relative;
-        top: 360px;
+        top: 372px;
     }
 
     .btn:hover {
@@ -1024,22 +989,23 @@ footer {
         border-color: #fed20e; 
     }
 
-    /* Imagem do Vitor */
     .vitor {
+       /*  background-image: url("../img/20241106_195626.png"); */
         position: absolute;
-        top: -80px;
-        left: 32px;
-        /* bottom: 70px; */
-        width: 300px;
-        height: 82%;
+        top: -94px;
+        left: 16px;
+        width: 332px;
+        height: 600px;
         object-fit: cover;
         z-index: 1;
         opacity: 0.7;
-        padding-top: 40px;
-        padding-bottom: 25px;
+        display: block;
+/*      background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; */
     }
 
-    .avisos-text {
+    .avisos-text {  
         margin-top: 32px;
         color: #5D0000;
         margin-bottom: 28px;
@@ -1048,6 +1014,11 @@ footer {
     .box-1 {
         width: 336px;
         height: 268px;
+        margin-bottom: 32px;
+        background-color: #f9f9f9;
+       /*  position: relative;
+        top: -32px;
+        z-index: 9999; */
     }
 
     .x {
@@ -1064,6 +1035,7 @@ footer {
     .box-2 {
         width: 333px;
         height: 245px;
+        margin-bottom: 32px;
     }
 
     .certo {
@@ -1079,6 +1051,7 @@ footer {
 
     .btnn {
         width: 331px;
+        margin-top: 12px;
     }
 
     .passos-box {
@@ -1094,7 +1067,6 @@ footer {
     .passos-text-box {
         padding: 42px 58px 20px 60px;
         font-size: 24px;
-
     }
 
     .p-passos-box {
@@ -1108,7 +1080,7 @@ footer {
     .subtitle {
         margin: 22px auto -8px;
         line-height: 1.5;
-        padding-left: 24px;
+        padding: 0px 18px;
         text-align: start;
     }
 
@@ -1118,7 +1090,6 @@ footer {
 
     .duvidas {
         padding-top: 32px;
-
     }
 
     .wpp {
@@ -1205,7 +1176,8 @@ footer {
     .navbar-brand img {
         width: 160px;
         position: absolute;
-        top: 408px;
+        /* top: 408px; */
+        top: 414px;
         left: 128px;
         z-index: 4;
     }
@@ -1226,7 +1198,8 @@ footer {
         top: -91px;
         left: 38px;
         width: 347px;
-        height: 605px;
+       /*  height: 605px; */
+       height: 665px;
         object-fit: cover;
         z-index: 1;
         opacity: 0.7;
@@ -1238,7 +1211,8 @@ footer {
         color: #fff;
         line-height: 1.2;
         position: relative;
-        top: 422px;
+        /* top: 422px; */
+        top: 428px;
         margin-left: 54px;
         z-index: 4;
         font-weight: 600;
@@ -1344,7 +1318,7 @@ footer {
     .subtitle {
         margin: 22px auto -8px;
         line-height: 1.5;
-        padding-left: 19px;
+        padding: 0px 40px;
         text-align: start;
         font-size: 1.3rem;
     }
