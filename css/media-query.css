@@ -1,0 +1,1721 @@
+
+/*Samsung*/
+@media only screen and (max-width: 372px) {
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Mantém o conteúdo acima do gradiente */
+        bottom: 40px;
+    }
+
+    /* Textos */
+    .titulo, .subtitulo {
+        position: relative;
+        /*z-index: 4; /* Aumentado para garantir que fique acima do .vitor */
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 711px; /* Ocupa a altura total da tela */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centraliza verticalmente */
+        align-items: center; /* Centraliza horizontalmente */
+        background-color: #000000; /* Fundo como fallback */
+        overflow: hidden; /* Garante que nada vaze fora */
+    }
+
+    /* Navegação */
+    .navbar {
+        position: relative;
+        z-index: 3; /* Mantém a navegação acima da imagem de fundo */
+        width: 100%;
+        background: transparent;
+    }
+
+    /* Logo */
+    .navbar-brand img {
+        width: 140px;
+        position: absolute;
+        top: 365px;
+        left: 112px;
+        z-index: 4; /*Fica acima de tudo*/
+    }
+
+    /* Container principal (textos + imagem) */
+    .row {
+        display: flex;
+        align-items: center; /* Alinha os textos e a imagem verticalmente */
+        justify-content: center; /* Centraliza horizontalmente */
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2; /* Garante que os textos fiquem acima da imagem de fundo */
+    }
+
+    /* Textos */
+    .titulo {
+        font-size: 28px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 367px;
+        left: -46px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .titulo span {
+        color: #ffd700; /* Destaque para as palavras */
+    }
+
+    .subtitulo {
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 368px;
+        text-align: center;
+        margin-left: -5px; 
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 8px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 372px;
+    }
+
+    .vitor {
+       /*  background-image: url("../img/20241106_195626.png"); */
+        position: absolute;
+        top: -94px;
+        left: 12px;
+        width: 332px;
+        height: 600px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+        /*display: block;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; */
+    }
+
+    .img-antes, .img-depois {
+        width: 103%;
+        height: 280px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+    .avisos-text {  
+        margin-top: 10%;
+    }
+
+    .box-1 {
+        width: 336px !important;
+        height: 268px;
+        margin-bottom: 32px;
+        background-color: #f9f9f9;
+    }
+
+    .x {
+        width: 50px;
+        padding-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    .p-box-1 {
+        padding: 0px 16px;
+        line-height: 1.4;
+    }
+
+    .box-2 {
+        width: 333px;
+        height: 245px;
+        margin-bottom: 32px;
+    }
+
+    .certo {
+        width: 50px;
+        padding-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    .p-box-2 {
+        padding: 0px 16px;
+        line-height: 1.4;
+    }
+
+    .btnn {
+        width: 331px;
+        margin-top: 12px;
+    }
+
+    .passos-box {
+        width: 336px;
+        height: 291px;
+        font-size: 17px;
+    }
+
+    .numero {
+        bottom: 245px;
+    }
+
+    .passos-text-box {
+        padding-top: 48px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+    .p-passos-box {
+        font-size: 21px;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .p-passos-box-different {
+        font-size: 21px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .sobre-mim {
+        width: 348px;
+    }
+
+    .subtitle {
+        padding: 0 16px; /* Reduzindo margens laterais */
+        font-size: 1.1rem; /* Mantendo responsivo */
+        line-height: 1.6; /* Maior espaçamento para melhorar a leitura */
+        text-align: justify;
+        hyphens: auto; /* Permite a quebra de palavras para evitar grandes espaços */
+        word-spacing: -1px;
+    }
+
+    .subtitle:not(:last-child) {
+        margin-bottom: 12px; /* Adiciona espaço entre os parágrafos */
+    }
+
+    .perguntas-box {
+        margin-left: 20px;
+    }
+
+    .duvidas {
+        padding-top: 32px;
+    }
+
+    .wpp {
+        width: 190px;
+        margin-bottom: 16px;
+    }
+
+    .duvidas-text {
+        font-size: 2rem;
+    }
+
+    .duvidas-text-2{
+        font-size: 1.1rem;
+    }
+
+    .whatsapp {
+        color: forestgreen;
+    }
+
+    .fa-instagram {
+        left: 4px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 3px;
+    }
+
+    .footer-text {
+        padding: 0 16px;
+    }
+
+    .carousel-control-prev-icon {
+        width: 3rem;
+        height: 17px;
+        margin-top: 95px;
+    }
+
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 17px;
+        margin-top: 95px;
+    }
+}
+
+/*One Plus Nord 2
+@media (min-width: 361px) and (max-width: 412px) and (min-height: 801px) and (max-height: 915px) {
+
+    .vitor {
+        position: absolute;
+        top: -91px;
+        left: 26px;
+        width: 355px;
+        height: 675px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+} */
+
+/*Iphone 13 mini*/
+@media screen and (min-width: 374px) and (max-width: 375px) {
+
+     .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        color: #fff;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 850px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000; 
+        overflow: hidden; 
+    }
+
+    
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+   
+    .navbar-brand img {
+        width: 160px;
+        position: absolute;
+        top: 414px;
+        left: 140px;
+        z-index: 4;
+    }
+
+   
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2; 
+    }
+
+    .titulo {
+        font-size: 29px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 410px;
+        left: 0px;
+        font-size: 29px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 414px;
+        text-align: center;
+        left: 0px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 8px;
+    }
+
+    .avisos-text {
+        margin-top: 10%;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 455px;
+        width: 291px;
+    }
+
+    .vitor {
+        position: absolute;
+        top: -91px;
+        left: 6px;
+        width: 355px;
+        height: 675px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    .navbar-brand img {
+        width: 160px;
+        position: absolute;
+        top: 414px;
+        left: 108px;
+        z-index: 4;
+    }
+
+    .titulo {
+        left: -48px;
+        font-size: 29px;
+    }
+
+    .subtitulo {
+        margin-left: 4px;
+        top: 426px;
+    }
+
+    .box-1 {
+        width: 352px;
+    }
+
+    .box-2 {
+        width: 352px;
+    }
+
+    .passos-box {
+        width: 352px;
+        height: 297px;
+    }
+
+    .passos-text-box {
+        font-size: 30px;
+        padding-top: 48px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .p-passos-box {
+        font-size: 21px;
+        position: relative;
+        bottom: 3px;
+    }
+
+    .p-passos-box-different {
+        font-size: 21px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .btnn {
+        width: 350px;
+    }
+
+    .subtitle {
+        padding: 0 16px; 
+        font-size: 1.1rem; 
+        line-height: 1.6; 
+        text-align: justify;
+        hyphens: auto;
+        word-spacing: -1px;
+    }
+
+    .perguntas-box {
+        margin-left: 28px;
+    }
+
+    .duvidas {
+        padding-top: 32px;
+    }
+
+    .wpp {
+        width: 200px;
+        margin-bottom: 18px;
+    }
+
+    .duvidas-text {
+        font-size: 2.2rem;
+    }
+
+    .duvidas-text-2{
+        font-size: 1.2rem;
+    }
+
+    .whatsapp {
+        color: forestgreen;
+    }
+
+    .carousel-control-prev-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+    }
+
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+    }
+} 
+
+/*Samsung s24 ULTRA*/
+
+@media only screen and (width: 384px), 
+       only screen and (device-width: 384px) {
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        color: #fff;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 850px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000; 
+        overflow: hidden; 
+    }
+
+    
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+   
+    .navbar-brand img {
+        width: 160px;
+        position: absolute;
+        top: 414px;
+        left: 140px;
+        z-index: 4;
+    }
+
+   
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2; 
+    }
+
+    .titulo {
+        font-size: 29px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 410px;
+        left: 0px;
+        font-size: 29px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 414px;
+        text-align: center;
+        left: 0px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 8px;
+    }
+
+    .avisos-text {
+        margin-top: 10%;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 455px;
+        width: 291px;
+    }
+
+    .vitor {
+        position: absolute;
+        top: -91px;
+        left: 12px;
+        width: 355px;
+        height: 675px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    .navbar-brand img {
+        width: 160px;
+        position: absolute;
+        top: 414px;
+        left: 108px;
+        z-index: 4;
+    }
+
+    .titulo {
+        left: -48px;
+        font-size: 29px;
+    }
+
+    .subtitulo {
+        margin-left: 4px;
+        top: 426px;
+    }
+
+    .box-1 {
+        width: 352px;
+    }
+
+    .box-2 {
+        width: 352px;
+    }
+
+   .passos-box {
+        width: 363px;
+        height: 297px;
+    }
+
+    .passos-text-box {
+        font-size: 30px;
+        padding-top: 48px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .p-passos-box {
+        font-size: 22px;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .p-passos-box-different {
+        font-size: 22px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .numero {
+        bottom: 251px;
+    }
+
+    .passos-text {
+        font-size: 26px;
+    }
+
+    .btnn {
+        width: 350px;
+    }
+
+    .subtitle {
+        padding: 0 16px; 
+        font-size: 1.1rem; 
+        line-height: 1.6; 
+        text-align: justify;
+        hyphens: auto; 
+        word-spacing: -1px;
+    }
+
+    .perguntas-box {
+        margin-left: 32px;
+    }
+
+    .duvidas {
+        padding-top: 32px;
+    }
+
+    .wpp {
+        width: 200px;
+        margin-bottom: 18px;
+    }
+
+    .duvidas-text {
+        font-size: 2.2rem;
+    }
+
+    .duvidas-text-2{
+        font-size: 1.2rem;
+    }
+
+    .whatsapp {
+        color: forestgreen;
+    }
+
+    .carousel-control-prev-icon {
+        width: 3rem;
+        height: 17px;
+        margin-top: 95px;
+    }
+
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 17px;
+        margin-top: 95px;
+    }
+} 
+
+
+/*Iphone 12 pro, 13 pro, 14 pro*/
+@media only screen and (width: 390px), 
+       only screen and (device-width: 390px) {
+
+     .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        color: #fff;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 850px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        background-color: #000;
+        overflow: hidden; 
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+    .navbar-brand img {
+        width: 160px;
+        position: absolute;
+        top: 414px;
+        left: 116px;
+        z-index: 4;
+    }
+
+    /* Container principal (textos + imagem) */
+    .row {
+        display: flex;
+        align-items: center; /* Alinha os textos e a imagem verticalmente */
+        justify-content: center; /* Centraliza horizontalmente */
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2; /* Garante que os textos fiquem acima da imagem de fundo */
+    }
+
+    .vitor {
+        position: absolute;
+        top: -91px;
+        left: 16px;
+        width: 360px;
+        height: 665px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    /* Textos */
+    .titulo {
+        font-size: 30px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 408px;
+        left: -52px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 422px;
+        text-align: center;
+        margin-left: -1px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 8px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 450px;
+        width: 291px;
+    }
+
+    .avisos-text {
+        margin-top: 10%;
+    }
+
+    .box-1 {
+        width: 370px;
+        height: 280px; 
+    }
+
+    .p-box-1 {
+        font-size: 21px;
+    }
+
+    .box-2 {
+        width: 370px;
+        height: 280px;
+    }
+
+    .p-box-2 {
+        font-size: 21px;
+    }
+
+    .passos-text {
+        font-size: 26px;
+    }
+
+    .passos-box {
+        width: 363px;
+        height: 320px;
+    }
+
+    .passos-text-box {
+        font-size: 30px;
+        padding-top: 48px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .p-passos-box {
+        font-size: 22px;
+        position: relative;
+        bottom: 2px;
+    }
+
+    .p-passos-box-different {
+        font-size: 22px;
+        position: relative;
+        bottom: 22px;
+    }
+
+    .numero {
+        bottom: 273px;
+    }
+
+    .btnn {
+        width: 370px;
+    }
+
+    .subtitle {
+        padding: 0 16px; 
+        font-size: 1.3rem; 
+        line-height: 1.6; 
+        text-align: justify;
+        hyphens: auto; 
+        word-spacing: -1px;
+    }
+
+    .subtitle:not(:last-child) {
+        margin-bottom: 12px; 
+    }
+
+    .perguntas-box {
+        margin-left: 35px;
+    }
+
+    .duvidas {
+        padding-top: 32px;
+    }
+
+    .wpp {
+        width: 200px;
+        margin-bottom: 18px;
+    }
+
+    .duvidas-text {
+        font-size: 2.2rem;
+    }
+
+    .duvidas-text-2{
+        font-size: 1.2rem;
+    }
+
+    .whatsapp {
+        color: forestgreen;
+    }
+
+    .carousel-control-prev-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+    }
+
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+    }
+}
+
+/*IPHONE 15,16 17*/
+
+@media only screen and (width: 393px), 
+       only screen and (device-width: 393px) {
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    /* Textos */
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Fica sobre a imagem */
+        color: #fff;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 850px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000; 
+        overflow: hidden; 
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        background: transparent;
+    }
+
+    .navbar-brand img {
+        width: 160px;
+        position: absolute;
+        top: 414px;
+        left: 116px;
+        z-index: 4;
+    }
+
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .vitor {
+        position: absolute;
+        top: -91px;
+        left: 16px;
+        width: 360px;
+        height: 665px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    .titulo {
+        font-size: 30px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 408px;
+        left: -52px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 422px;
+        text-align: center;
+        margin-left: -1px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 8px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 450px;
+        width: 291px;
+    }
+
+    .avisos-text {
+        margin-top: 10%;
+    }
+
+     .box-1 {
+        width: 370px;
+        height: 280px; 
+    }
+
+    .p-box-1 {
+        font-size: 21px;
+    }
+
+    .box-2 {
+        width: 370px;
+        height: 280px;
+    }
+
+    .p-box-2 {
+        font-size: 22px;
+    }
+
+    .passos-text {
+        font-size: 26px;
+    }
+
+    .passos-box {
+        width: 363px;
+        height: 320px;
+    }
+
+    .passos-text-box {
+        font-size: 30px;
+        padding-top: 48px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .p-passos-box {
+        font-size: 23px;
+        position: relative;
+        bottom: 2px;
+    }
+
+    .p-passos-box-different {
+        font-size: 23px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .numero {
+        bottom: 273px;
+    }
+
+    .btnn {
+        width: 370px;
+    }
+
+    .subtitle {
+        padding: 0 16px; 
+        font-size: 1.3rem; 
+        line-height: 1.6; 
+        text-align: justify;
+        hyphens: auto; 
+        word-spacing: -1px;
+    }
+
+    .subtitle:not(:last-child) {
+        margin-bottom: 12px; 
+    }
+
+    .perguntas-box {
+        margin-left: 35px;
+    }
+
+    .duvidas {
+        padding-top: 32px;
+    }
+
+    .wpp {
+        width: 200px;
+        margin-bottom: 18px;
+    }
+
+    .duvidas-text {
+        font-size: 2.2rem;
+    }
+
+    .duvidas-text-2{
+        font-size: 1.2rem;
+    }
+
+    .whatsapp {
+        color: forestgreen;
+    }
+
+    .carousel-control-prev-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+    }
+
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+    }
+}
+
+/*Iphone 11*/
+@media only screen and (min-width: 399px) and (max-width: 414px) {
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    /* Textos */
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Fica sobre a imagem */
+        color: #fff;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 850px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000; 
+        overflow: hidden;
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+    .navbar-brand img {
+        width: 160px;
+        position: absolute;
+        /* top: 408px; */
+        top: 414px;
+        left: 130px;
+        z-index: 4;
+    }
+
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .vitor {
+        position: absolute;
+        top: -91px;
+        left: 30px;
+        width: 351px;
+        height: 665px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    /* Textos */
+    .titulo {
+        font-size: 32px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 410px;
+        left: -50px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 414px;
+        text-align: center;
+        margin-left: -1px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 8px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 450px;
+    }
+
+    .avisos-text {
+        margin-top: 10%;
+    }
+
+    .box-1 {
+        width: 376px;
+    }
+
+    .x {
+        width: 52px;
+        padding-top: 20px;
+        margin-bottom: 12px;
+    }
+
+     .p-box-1 {
+        padding: 0px 32px;
+        line-height: 1.4;
+        font-size: 22px;
+    }
+    
+    .box-2 {
+        width: 376px;
+    }
+
+    .certo {
+        width: 52px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .p-box-2 {
+        padding: 0px 32px;
+        line-height: 1.4;
+        font-size: 22px;
+    }
+
+    .passos-text {
+        font-size: 28px;
+    }
+
+    .passos-box {
+        width: 376px;
+        height: 318px;
+    }
+
+    .passos-text-box {
+        padding-top: 48px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 28px;
+    }
+
+    .p-passos-box {
+      font-size: 24px;
+    }
+
+    .p-passos-box-different {
+        font-size: 24px;
+        position: relative;
+        bottom: 28px;
+    }
+
+    .numero {
+        bottom: 272px;
+    }
+
+    .sobre-mim {
+        width: 348px;
+    }
+
+    .subtitle {
+        padding: 0 16px; 
+        font-size: 1.3rem; 
+        line-height: 1.6; 
+        text-align: justify;
+        hyphens: auto; 
+        word-spacing: -1px;
+    }
+
+    .subtitle:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    .btnn {
+        width: 378px;
+    } 
+
+     .perguntas-box {
+        margin-left: 47px;
+    }
+
+    .duvidas {
+        padding-top: 32px;
+    }
+
+    .wpp {
+        width: 200px;
+        margin-bottom: 18px;
+    }
+
+    .duvidas-text {
+        font-size: 2.2rem;
+    }
+
+    .duvidas-text-2{
+        font-size: 1.2rem;
+    }
+
+    .whatsapp {
+        color: forestgreen;
+    }
+
+    .fa-instagram {
+        left: 4px;
+    }
+
+    .footer-text {
+        padding: 0 39px;
+    }
+
+    .carousel-control-prev-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+        margin-right: 28px;
+    }
+
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+        margin-left: 28px;
+    }
+}
+
+/*Iphone 12,13,14,15,16 pro max/plus */
+@media screen and (min-width: 415px) and (max-width: 440px) and (max-height: 956px) { 
+   .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        color: #fff;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 850px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000; 
+        overflow: hidden; 
+    }
+
+    
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+   
+    .navbar-brand img {
+        width: 160px;
+        position: absolute;
+        top: 414px;
+        left: 140px;
+        z-index: 4;
+    }
+
+   
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2; 
+    }
+
+    .vitor {
+        position: absolute;
+        top: -91px;
+        left: 28px;
+        width: 372px;
+        height: 665px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    .titulo {
+        font-size: 2.2rem;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 410px;
+        margin-left: -1px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 414px;
+        text-align: center;
+        margin-left: -2px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 8px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 455px;
+        width: 291px;
+    }
+
+    .avisos-text {
+        margin-top: 10%;
+    }
+
+    .box-1 {
+        width: 380px;
+    }
+
+    .p-box-1 {
+        font-size: 22px;
+    }
+
+    .box-2 {
+        width: 380px;
+    }
+
+    .p-box-2 {
+        font-size: 23px;
+    }
+
+    .passos-text {
+        font-size: 29px;
+    }
+
+     .passos-box {
+        width: 380px;
+        height: 320px;
+    }
+
+    .numero {
+        bottom: 274px;
+    }
+
+    .passos-text-box {
+        font-size: 30px;
+        padding-top: 48px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .p-passos-box {
+        font-size: 24px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .p-passos-box-different {
+        font-size: 23px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .btnn {
+        width: 380px;
+        margin-bottom: 50px;
+    }
+
+    .subtitle {
+        padding: 0 16px; 
+        font-size: 1.3rem; 
+        line-height: 1.6; 
+        text-align: justify;
+        hyphens: auto; 
+        word-spacing: -1px;
+    }
+
+    .subtitle:not(:last-child) {
+        margin-bottom: 12px; 
+    }
+
+    .perguntas-box {
+        margin-left: 56px; 
+    }
+
+    .wpp {
+        width: 300px;
+    }
+
+    .footer-text {
+        font-size: 1.3rem;
+    }
+    
+    .carousel-control-prev-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+        margin-right: 45px;
+    }
+
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 24px;
+        margin-top: 95px;
+        margin-left: 45px;
+    }
+} 
+
+@media screen and (min-width: 1024px) {
+    .vitor {
+        width: 325px;
+    }
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    .navbar-brand img {
+        width: 182px;
+        position: relative;
+        top: 12px;
+    }
+
+    .titulo, .subtitulo {
+        text-align: left;
+        margin-left: 171px;
+    }
+
+    .btn {
+        margin-left: -99px;
+        width: 320px;
+        height: 56px;
+    }
+
+    .testemunha-color {
+        background-color: #000000;
+        padding: 48px 0 30px;
+    }
+}
+
+/*PC*/
+
+@media screen and (min-width: 1900px) {
+
+    .vitor {
+        width: 363px;
+    }
+
+     .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Mantém o conteúdo acima do gradiente */
+        bottom: 40px;
+    }
+
+    .navbar-brand img {
+        width: 182px;
+        position: relative;
+        top: 4px;
+        right: 63px;
+    }
+
+    .titulo, .subtitulo {
+        text-align: left;
+        margin-left: 300px;
+    }
+
+    .btn {
+        margin-left: -32px;
+        width: 320px;
+        height: 56px;
+    }
+
+    .avisos-text {
+        margin-left: 6px;
+    }
+
+    .box-1 {
+        margin-left: 747px;
+    }
+
+    .p-box-1 {
+        font-size: 19px;
+    }
+
+    .box-2 {
+        margin-left: 747px;
+    }
+
+    .p-box-2 {
+        font-size: 19px;
+    }
+
+    .btnn {
+        width: 429px;
+        margin-right: 4px;
+    }
+
+    .yellow-barr {
+        margin-top: 64px;
+    }
+
+    .sobre-mim {
+        top: 12px;
+        width: 360px;
+    }
+
+    .text-overlay {
+        bottom: 36px;
+        padding-bottom: 40px;
+    }
+
+    .perguntas-header {
+        margin-top: 20px;
+    }
+
+    .perguntas-box {
+        margin-left: 49.938rem;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 4px;
+    }
+}
