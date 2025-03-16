@@ -1255,12 +1255,12 @@
     }
 
     .img-depois {
-        width: 100%;
+        width: 80%;
         height: 296px; 
     }
 
     .carousel-content {
-        gap: 10px;
+        gap: 20px;
         margin-bottom: 4px;
     } 
 
