@@ -1267,17 +1267,18 @@
         opacity: 0.8;
     }
 
-    /*.img-antes {
-        width: 104%;
+    .img-antes {
+       /*  width: 104%; */
         height: 296px; 
         padding-left: 10px;
     }
 
     .img-depois {
-        width: 100%;
+       /*  width: 100%; */
         height: 296px; 
+    }
     
-    width: 80%;
+   /* width: 80%;
     height: auto;
     } */
 
