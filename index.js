@@ -92,7 +92,7 @@ const copyright = document.getElementById('footer-text');
 copyright.innerHTML = year + " © Team Lior - Todos os direitos reservados";
 
 document.addEventListener("DOMContentLoaded", () => {
-    const boxes = document.querySelectorAll(".box-1, .box-2, .sobre-mim");
+    const boxes = document.querySelectorAll(".box-1, .box-2, .sobre-mim, .passos-box, .sobre-mim-box");
 
     const observer = new IntersectionObserver( (entries) => {
         entries.forEach( (entry) => {

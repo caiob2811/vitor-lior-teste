@@ -1,0 +1,688 @@
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Mantém o conteúdo acima do gradiente */
+        bottom: 40px;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 711px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000000; 
+        overflow: hidden; 
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+    .navbar-brand img {
+        width: 180px;
+        position: absolute;
+        top: 336px;
+        left: 290px;
+        z-index: 4;
+    }
+
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2; 
+    }
+
+    .titulo {
+        font-size: 33px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 385px;
+        left: -110px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .titulo span {
+        color: #ffd700; 
+    }
+
+    .subtitulo {
+        font-size: 22px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 379px;
+        text-align: center;
+        margin-left: -5px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 100px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 396px;
+    }
+
+    .vitor {
+        position: absolute;
+        top: -94px;
+        left: 216px;
+        width: 332px;
+        height: 600px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    .carousel-content {
+        margin-bottom: 4px;
+    }
+
+    .p-passos-box-different {
+        bottom: 18px;
+    }
+
+    .sobre-mim {
+        width: 410px;
+        top: -94px;
+    }
+
+    .subtitle {
+        position: relative;
+        left: 10px;
+    }
+
+    .perguntas-box {
+        margin-left: 222px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 2px;
+    }
+}
+
+/*Samsung Tab*/
+
+@media only screen and (min-width: 800px) and (max-width: 819px) {
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Mantém o conteúdo acima do gradiente */
+        bottom: 40px;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 711px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000000; 
+        overflow: hidden; 
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+    .navbar-brand img {
+        width: 180px;
+        position: absolute;
+        top: 336px;
+        left: 312px;
+        z-index: 4;
+    }
+
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2; 
+    }
+
+    .titulo {
+        font-size: 33px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 385px;
+        left: -110px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .titulo span {
+        color: #ffd700; 
+    }
+
+    .subtitulo {
+        font-size: 22px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 387px;
+        text-align: center;
+        margin-left: -5px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 100px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 405px;
+        width: 295px;
+    }
+
+    .vitor {
+        position: absolute;
+        top: -94px;
+        left: 229px;
+        width: 332px;
+        height: 600px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    .carousel-content {
+        margin-bottom: 4px;
+    }
+
+    .caption {
+        font-size: 22px;
+    }
+
+    .objective {
+        width: 280px;
+        height: 42px;
+        border: 1px solid;
+        border-radius: 3px;
+        font-size: 22px;
+    }
+
+    .btnnn {
+        font-size: 20px;
+        width: 350px;
+        height: 66px;
+        padding-top: 18px;
+    }
+
+    .box-1 {
+        width: 418px;
+    }
+    
+    .p-box-1 {
+        font-size: 22px;
+    }
+
+    .box-2 {
+        width: 418px;
+    }
+
+     .p-box-2 {
+        font-size: 22px;
+    }
+
+    .p-passos-box{
+        font-size: 25px;
+    }
+
+    .passos-text-box {
+        font-size: 32px;
+        padding: 48px 30px 28px 30px;
+    }
+
+    .p-passos-box-different {
+        font-size: 22.8px;
+        bottom: 24px;
+    }
+
+    .btnn {
+        width: 420px;
+    }
+
+    .sobre-mim {
+        width: 410px;
+        top: -94px;
+    }
+
+    .subtitle {
+        position: relative;
+        left: 8px;
+    }
+
+    .perguntas-box {
+        margin-left: 239px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 6px;
+    }
+}
+
+
+/*IPAD Air*/
+
+@media only screen and (min-width: 820px) and (max-width: 833px) {
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Mantém o conteúdo acima do gradiente */
+        bottom: 40px;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 711px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000000; 
+        overflow: hidden; 
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+    .navbar-brand img {
+        width: 180px;
+        position: absolute;
+        top: 336px;
+        left: 326px;
+        z-index: 4;
+    }
+
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2; 
+    }
+
+    .titulo {
+        font-size: 33px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 385px;
+        left: -110px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .titulo span {
+        color: #ffd700; 
+    }
+
+    .subtitulo {
+        font-size: 22px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 387px;
+        text-align: center;
+        margin-left: -5px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 100px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 405px;
+        width: 295px;
+    }
+
+    .vitor {
+        position: absolute;
+        top: -94px;
+        left: 245px;
+        width: 332px;
+        height: 600px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    .testemunha-text {
+        font-size: 35px;
+    }
+
+    .carousel-content {
+        margin-bottom: 4px;
+    }
+
+    .caption {
+        font-size: 34px;
+    }
+
+    .objective {
+        width: 280px;
+        height: 42px;
+        border: 1px solid;
+        border-radius: 3px;
+        font-size: 22px;
+    }
+
+    .btnnn {
+        font-size: 20px;
+        width: 350px;
+        height: 66px;
+        padding-top: 18px;
+    }
+
+    .box-1 {
+        width: 418px;
+    }
+    
+    .p-box-1 {
+        font-size: 24px;
+    }
+
+    .box-2 {
+        width: 418px;
+    }
+
+     .p-box-2 {
+        font-size: 24px;
+    }
+
+    .p-passos-box{
+        font-size: 25px;
+    }
+
+    .passos-text-box {
+        font-size: 32px;
+        padding: 48px 30px 28px 30px;
+    }
+
+    .p-passos-box-different {
+        font-size: 22.8px;
+        bottom: 24px;
+    }
+
+    .btnn {
+        width: 420px;
+    }
+
+    .sobre-mim {
+        width: 410px;
+        top: -94px;
+    }
+
+    .subtitle {
+        position: relative;
+        left: 8px;
+    }
+
+    .perguntas-box {
+        margin-left: 243px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 6px;
+    }
+}
+
+/*IPAD Pro 11*/
+
+@media only screen and (min-width: 834px) {
+
+     .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Mantém o conteúdo acima do gradiente */
+        bottom: 40px;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 711px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000000; 
+        overflow: hidden; 
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+    .navbar-brand img {
+        width: 180px;
+        position: absolute;
+        top: 336px;
+        left: 335px;
+        z-index: 4;
+    }
+
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2; 
+    }
+
+    .titulo {
+        font-size: 33px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 385px;
+        left: -110px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .titulo span {
+        color: #ffd700; 
+    }
+
+    .subtitulo {
+        font-size: 22px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 387px;
+        text-align: center;
+        margin-left: -5px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 100px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 405px;
+        width: 295px;
+    }
+
+    .vitor {
+        position: absolute;
+        top: -94px;
+        left: 245px;
+        width: 345px;
+        height: 600px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    .testemunha-text {
+        font-size: 35px;
+    }
+
+    .carousel-content {
+        margin-bottom: 4px;
+    }
+
+    .caption {
+        font-size: 34px;
+    }
+
+    .objective {
+        width: 280px;
+        height: 42px;
+        border: 1px solid;
+        border-radius: 3px;
+        font-size: 22px;
+    }
+
+    .btnnn {
+        font-size: 20px;
+        width: 350px;
+        height: 66px;
+        padding-top: 18px;
+    }
+
+    .box-1 {
+        width: 418px;
+    }
+    
+    .p-box-1 {
+        font-size: 24px;
+    }
+
+    .box-2 {
+        width: 418px;
+    }
+
+     .p-box-2 {
+        font-size: 24px;
+    }
+
+    .p-passos-box{
+        font-size: 25px;
+    }
+
+    .passos-text-box {
+        font-size: 32px;
+        padding: 48px 30px 28px 30px;
+    }
+
+    .p-passos-box-different {
+        font-size: 22.8px;
+        bottom: 24px;
+    }
+
+    .btnn {
+        width: 420px;
+    }
+
+    .sobre-mim {
+        width: 410px;
+        top: -94px;
+    }
+
+    .subtitle {
+        position: relative;
+        left: 8px;
+    }
+
+    .perguntas-box {
+        margin-left: 243px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 6px;
+    }
+
+    .perguntas-box {
+            margin-left: 253px;
+        }
+    }

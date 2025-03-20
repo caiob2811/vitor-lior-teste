@@ -25,10 +25,10 @@
         overflow: hidden; /* Garante que nada vaze fora */
     }
 
-    /* Navegação */
+    
     .navbar {
         position: relative;
-        z-index: 3; /* Mantém a navegação acima da imagem de fundo */
+        z-index: 3; 
         width: 100%;
         background: transparent;
     }
@@ -39,18 +39,18 @@
         position: absolute;
         top: 365px;
         left: 112px;
-        z-index: 4; /*Fica acima de tudo*/
+        z-index: 4; 
     }
 
-    /* Container principal (textos + imagem) */
+   
     .row {
         display: flex;
-        align-items: center; /* Alinha os textos e a imagem verticalmente */
-        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; 
+        justify-content: center; 
         width: 100%;
         height: 100%;
         position: relative;
-        z-index: 2; /* Garante que os textos fiquem acima da imagem de fundo */
+        z-index: 2; 
     }
 
     /* Textos */
@@ -193,8 +193,13 @@
         bottom: 25px;
     }
 
+    .sobre-mim-box {
+        width: 354px;
+    }
+
     .sobre-mim {
-        width: 348px;
+        width: 400px;
+        top: -83px;
     }
 
     .subtitle {
@@ -212,6 +217,12 @@
 
     .perguntas-box {
         margin-left: 20px;
+    }
+
+    .perguntas-header {
+        position: relative;
+        top: 20px;
+        left: 2px;
     }
 
     .duvidas {
@@ -251,13 +262,19 @@
     .carousel-control-prev-icon {
         width: 3rem;
         height: 17px;
-        margin-top: 95px;
+        /* margin-top: 95px; */
+        margin-bottom: 118px;
+        left: 12px;
+        position: relative;
     }
 
     .carousel-control-next-icon {
         width: 3rem;
         height: 17px;
-        margin-top: 95px;
+        /* margin-top: 95px; */
+        margin-bottom: 118px;
+        right: 12px;
+        position: relative;
     }
 }
 
@@ -276,7 +293,7 @@
     }
 } */
 
-/*Iphone 13 mini*/
+/*Iphone 13 mini , 11 pro*/
 @media screen and (min-width: 374px) and (max-width: 375px) {
 
      .cabecalho > * {
@@ -447,8 +464,21 @@
         bottom: 30px;
     }
 
+    .numero {
+        bottom: 250px;
+    }
+
     .btnn {
         width: 350px;
+    }
+
+    .sobre-mim-box {
+        width: 375px;
+    }
+
+    .sobre-mim {
+        width: 390px;
+        top: -71px;
     }
 
     .subtitle {
@@ -462,6 +492,12 @@
 
     .perguntas-box {
         margin-left: 28px;
+    }
+
+    .perguntas-header {
+        position: relative;
+        top: 10px;
+        left: 3px;
     }
 
     .duvidas {
@@ -485,16 +521,31 @@
         color: forestgreen;
     }
 
-    .carousel-control-prev-icon {
+    .footer-img {
+        position: relative;
+        right: 6px;
+    }
+
+    .carousel-content {
+        margin-bottom: 4px;
+    }
+
+   .carousel-control-prev-icon {
         width: 3rem;
-        height: 24px;
-        margin-top: 95px;
+        height: 17px;
+        /* margin-top: 95px; */
+        margin-bottom: 118px;
+        left: 12px;
+        position: relative;
     }
 
     .carousel-control-next-icon {
         width: 3rem;
-        height: 24px;
-        margin-top: 95px;
+        height: 17px;
+        /* margin-top: 95px; */
+        margin-bottom: 118px;
+        right: 12px;
+        position: relative;
     }
 } 
 
@@ -654,7 +705,7 @@
 
     .passos-text-box {
         font-size: 30px;
-        padding-top: 48px;
+        padding-top: 42px;
         padding-right: 10px;
         padding-left: 10px;
     }
@@ -666,9 +717,9 @@
     }
 
     .p-passos-box-different {
-        font-size: 22px;
+        font-size: 21px;
         position: relative;
-        bottom: 20px;
+        bottom: 30px;
     }
 
     .numero {
@@ -683,6 +734,15 @@
         width: 350px;
     }
 
+    .sobre-mim-box {
+        width: 375px;
+    }
+
+    .sobre-mim {
+        width: 400px;
+        top: -83px;
+    }
+
     .subtitle {
         padding: 0 16px; 
         font-size: 1.1rem; 
@@ -694,6 +754,12 @@
 
     .perguntas-box {
         margin-left: 32px;
+    }
+
+    .perguntas-header {
+        position: relative;
+        top: 20px;
+        left: 2px;
     }
 
     .duvidas {
@@ -717,16 +783,27 @@
         color: forestgreen;
     }
 
-    .carousel-control-prev-icon {
+    .footer-img{
+        position: relative;
+        right: 6px;
+    }
+
+   .carousel-control-prev-icon {
         width: 3rem;
         height: 17px;
-        margin-top: 95px;
+        /* margin-top: 95px; */
+        margin-bottom: 118px;
+        left: 12px;
+        position: relative;
     }
 
     .carousel-control-next-icon {
         width: 3rem;
         height: 17px;
-        margin-top: 95px;
+        /* margin-top: 95px; */
+        margin-bottom: 118px;
+        right: 12px;
+        position: relative;
     }
 } 
 
@@ -802,7 +879,7 @@
     .img-antes {
         width: 100%;
         height: 296px; 
-        padding-left: 10px;
+        padding-left: 8px; /*ver depois*/
     }
 
     .img-depois {
@@ -908,6 +985,14 @@
     .btnn {
         width: 370px;
     }
+    
+    .sobre-mim-box {
+        width: 383px;
+    }
+    .sobre-mim {
+        width: 400px;
+        top: -84px;
+    }
 
     .subtitle {
         padding: 0 16px; 
@@ -924,6 +1009,12 @@
 
     .perguntas-box {
         margin-left: 35px;
+    }
+
+    .perguntas-header {
+        position: relative;
+        top: 20px;
+        left: 2px;
     }
 
     .duvidas {
@@ -947,16 +1038,36 @@
         color: forestgreen;
     }
 
-    .carousel-control-prev-icon {
-        width: 3rem;
-        height: 24px;
-        margin-top: 95px;
+    .footer-img { /*ver depois*/
+        position: relative;
+        right: 5px; /*verificar*/
     }
 
-    .carousel-control-next-icon {
+    .fa-instagram {
+        position: relative;
+        left: 1px;
+    }
+
+    .carousel-content {
+        margin-bottom: 4px;
+    }  
+
+    .carousel-control-prev-icon { /*ver depois*/
         width: 3rem;
         height: 24px;
-        margin-top: 95px;
+        margin-bottom: 108px; 
+        left: 10px;
+        position: relative;
+    
+    }
+
+    .carousel-control-next-icon { /*ver depois*/
+        width: 3rem;
+        height: 24px;
+         margin-bottom: 108px; 
+       /*  margin-top: 95px;nos dois */
+        right: 1px;
+        position: relative;
     }
 }
 
@@ -1146,6 +1257,15 @@
         width: 370px;
     }
 
+    .sobre-mim-box {
+        width: 386px;
+    }
+
+    .sobre-mim {
+        width: 408px;
+        top: -94px;
+    }
+
     .subtitle {
         padding: 0 16px; 
         font-size: 1.3rem; 
@@ -1180,15 +1300,30 @@
         font-size: 1.2rem;
     }
 
+    .perguntas-header {
+        position: relative;
+        left: 2px;
+        top: 20px;
+    }
+
     .whatsapp {
         color: forestgreen;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 2px;
     }
 
     .fa-instagram {
         left: 4px;
     }
 
-    .carousel-control-prev-icon {
+    .carousel-content {
+        margin-bottom: 4px;
+    } 
+
+    /* .carousel-control-prev-icon {
         width: 3rem;
         height: 24px;
         margin-top: 95px;
@@ -1198,11 +1333,28 @@
         width: 3rem;
         height: 24px;
         margin-top: 95px;
+    } */
+
+    .carousel-control-prev-icon { /*ver depois*/
+        width: 3rem;
+        height: 24px;
+        margin-bottom: 108px; 
+        left: 10px;
+        position: relative;
+    }
+
+    .carousel-control-next-icon { /*ver depois*/
+        width: 3rem;
+        height: 24px;
+         margin-bottom: 108px; 
+       /*  margin-top: 95px;nos dois */
+        right: 8px;
+        position: relative;
     }
 }
 
-/*Iphone 11*/
-@media only screen and (min-width: 399px) and (max-width: 414px) {
+/*Samsung Note20 Ultra*/
+@media only screen and (min-width: 411px) and (max-width: 412px) {
     .cabecalho > * {
         position: relative;
         z-index: 2; 
@@ -1270,7 +1422,8 @@
     .img-antes {
        /*  width: 104%; */
         height: 296px; 
-        padding-left: 10px;
+        /* padding-left: 10px; */
+        padding-left: 8px; /*ver depois*/
     }
 
     .img-depois {
@@ -1283,7 +1436,6 @@
     } */
 
     .carousel-content {
-        gap: 20px;
         margin-bottom: 4px;
     }  
 
@@ -1396,8 +1548,13 @@
         bottom: 272px;
     }
 
+    .sobre-mim-box {
+        width: 395px;
+    }
+
     .sobre-mim {
-        width: 348px;
+        width: 400px;
+        top: -83px;
     }
 
     .subtitle {
@@ -1419,6 +1576,12 @@
 
      .perguntas-box {
         margin-left: 47px;
+    }
+
+    .perguntas-header {
+        position: relative;
+        top: 20px;
+        left: 2px;
     }
 
     .duvidas {
@@ -1450,23 +1613,324 @@
         padding: 0 39px;
     }
 
-    .carousel-control-prev-icon {
-        width: 3rem;
-        height: 24px;
-        margin-top: 95px;
-        margin-right: 28px;
+     .footer-img { /*ver depois*/
+        position: relative;
+        right: 4px; /*verificar*/
     }
 
-    .carousel-control-next-icon {
+    .carousel-content {
+        margin-bottom: 4px;
+    }  
+
+    .carousel-control-prev-icon { /*ver depois*/
         width: 3rem;
         height: 24px;
-        margin-top: 95px;
-        margin-left: 28px;
+        margin-bottom: 108px; 
+        left: 10px;
+        position: relative;
+    
+    }
+
+    .carousel-control-next-icon { /*ver depois*/
+        width: 3rem;
+        height: 24px;
+         margin-bottom: 108px; 
+       /*  margin-top: 95px;nos dois */
+        right: 1px;
+        position: relative;
+    }
+}
+
+/*Iphone 11*/
+@media only screen and (min-width: 413px) and (max-width: 414px) {
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2;
+        color: #fff;
+    }
+
+    .titulo, .subtitulo {
+        position: relative;
+    }
+    
+    .cabecalho {
+        position: relative;
+        height: 850px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        background-color: #000; 
+        overflow: hidden;
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 3; 
+        width: 100%;
+        background: transparent;
+    }
+
+    .navbar-brand img {
+        width: 160px;
+        position: absolute;
+        /* top: 408px; */
+        top: 414px;
+        left: 130px;
+        z-index: 4;
+    }
+
+    .row {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .vitor {
+        position: absolute;
+        top: -91px;
+        left: 30px;
+        width: 351px;
+        height: 665px;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.8;
+    }
+
+    .img-antes {
+       /*  width: 104%; */
+        height: 296px; 
+        /* padding-left: 10px; */
+        padding-left: 8px; /*ver depois*/
+    }
+
+    .img-depois {
+       /*  width: 100%; */
+        height: 296px; 
+    }
+    
+   /* width: 80%;
+    height: auto;
+    } */
+
+    .carousel-content {
+        margin-bottom: 4px;
+    }  
+
+    .testemunha-text {
+        font-size: 25px;
+    }
+
+    .titulo {
+        font-size: 32px;
+        color: #fff;
+        line-height: 1.2;
+        position: relative;
+        top: 410px;
+        left: -50px;
+        z-index: 4;
+        font-weight: 600;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        position: relative;
+        top: 414px;
+        text-align: center;
+        margin-left: -1px;
+        text-wrap: wrap;
+        z-index: 4;
+        padding: 0px 8px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #FECA0E;
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
+        z-index: 2;
+        position: relative;
+        top: 450px;
+    }
+
+    .avisos-text {
+        margin-top: 10%;
+    }
+
+    .box-1 {
+        width: 376px;
+    }
+
+    .x {
+        width: 52px;
+        padding-top: 20px;
+        margin-bottom: 12px;
+    }
+
+     .p-box-1 {
+        padding: 0px 32px;
+        line-height: 1.4;
+        font-size: 22px;
+    }
+    
+    .box-2 {
+        width: 376px;
+    }
+
+    .certo {
+        width: 52px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .p-box-2 {
+        padding: 0px 32px;
+        line-height: 1.4;
+        font-size: 22px;
+    }
+
+    .passos-text {
+        font-size: 28px;
+    }
+
+    .passos-box {
+        width: 376px;
+        height: 318px;
+    }
+
+    .passos-text-box {
+        padding-top: 48px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 28px;
+    }
+
+    .p-passos-box {
+      font-size: 24px;
+    }
+
+    .p-passos-box-different {
+        font-size: 24px;
+        position: relative;
+        bottom: 28px;
+    }
+
+    .numero {
+        bottom: 272px;
+    }
+
+    .sobre-mim-box {
+        width: 400px;
+    }
+
+    .sobre-mim {
+        width: 412px;
+        top: -97px;
+    }
+
+    .subtitle {
+        padding: 0 16px; 
+        font-size: 1.3rem; 
+        line-height: 1.6; 
+        text-align: justify;
+        hyphens: auto; 
+        word-spacing: -1px;
+    }
+
+    .subtitle:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    .btnn {
+        width: 378px;
+    } 
+
+     .perguntas-box {
+        margin-left: 47px;
+    }
+
+    .perguntas-header {
+        position: relative;
+        top: 10px;
+        left: 4px;
+    }
+
+    .duvidas {
+        padding-top: 32px;
+    }
+
+    .wpp {
+        width: 200px;
+        margin-bottom: 18px;
+    }
+
+    .duvidas-text {
+        font-size: 2.2rem;
+    }
+
+    .duvidas-text-2{
+        font-size: 1.2rem;
+    }
+
+    .whatsapp {
+        color: forestgreen;
+    }
+
+    .fa-instagram {
+        left: 4px;
+    }
+
+    .footer-text {
+        padding: 0 39px;
+    }
+
+    .footer-img { /*ver depois*/
+        position: relative;
+        right: 2px; /*verificar*/
+    }
+
+    .carousel-content {
+        margin-bottom: 4px;
+    }  
+
+    .carousel-control-prev-icon { /*ver depois*/
+        width: 3rem;
+        height: 24px;
+        margin-bottom: 108px; 
+        left: 10px;
+        position: relative;
+    
+    }
+
+    .carousel-control-next-icon { /*ver depois*/
+        width: 3rem;
+        height: 24px;
+         margin-bottom: 108px; 
+       /*  margin-top: 95px;nos dois */
+        right: 1px;
+        position: relative;
     }
 }
 
 /*Iphone 12,13,14,15,16 pro max/plus */
-@media screen and (min-width: 415px) and (max-width: 440px) and (max-height: 956px) { 
+@media screen and (min-width: 428px) and (max-width: 440px) and (max-height: 956px) { 
    .cabecalho > * {
         position: relative;
         z-index: 2; 
@@ -1614,7 +2078,7 @@
     }
 
     .passos-text {
-        font-size: 29px;
+        font-size: 30px;
     }
 
      .passos-box {
@@ -1623,7 +2087,7 @@
     }
 
     .numero {
-        bottom: 274px;
+        bottom: 273px;
     }
 
     .passos-text-box {
@@ -1650,6 +2114,15 @@
         margin-bottom: 50px;
     }
 
+    .sobre-mim-box {
+        width: 418px;
+    }
+
+    .sobre-mim {
+        width: 412px;
+        top: -98px;
+    }
+
     .subtitle {
         padding: 0 16px; 
         font-size: 1.3rem; 
@@ -1663,10 +2136,16 @@
         margin-bottom: 12px; 
     }
 
-    .perguntas-box {
-        margin-left: 56px; 
+    .perguntas-header {
+        position: relative;
+        top: 10px;
+        left: 4px;
     }
 
+    .perguntas-box {
+       margin-left: 56px;
+    }
+    
     .wpp {
         width: 300px;
     }
@@ -1678,8 +2157,13 @@
     .fa-instagram {
         left: 4px;
     }
+
+    .footer-img{
+        position: relative;
+        right: 2px;
+    }
     
-    .carousel-control-prev-icon {
+    /* .carousel-control-prev-icon {
         width: 3rem;
         height: 24px;
         margin-top: 95px;
@@ -1691,23 +2175,38 @@
         height: 24px;
         margin-top: 95px;
         margin-left: 45px;
+    } */
+
+    .carousel-content {
+        margin-bottom: 4px;
+    } 
+
+    .carousel-control-prev-icon { /*ver depois*/
+        width: 3rem;
+        height: 24px;
+        margin-bottom: 108px; 
+        left: 12px;
+        position: relative;
+    
+    }
+
+    .carousel-control-next-icon { /*ver depois*/
+        width: 3rem;
+        height: 24px;
+         margin-bottom: 108px; 
+       /*  margin-top: 95px;nos dois */
+        right: 10px;
+        position: relative;
     }
 } 
 
-@media screen and (min-width: 1024px) {
+/*Macbook Air*/
 
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
     .vitor {
         width: 450px;
     }
-
-    /* .carousel-content {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 20px;
-        margin-bottom: 20px;
-    } */
-
+    
     .cabecalho > * {
         position: relative;
         z-index: 2; 
@@ -1722,11 +2221,11 @@
 
     .titulo, .subtitulo {
         text-align: left;
-        margin-left: 172px;
+        margin-left: 121px;
     }
 
     .btn {
-        margin-left: -99px;
+        margin-left: -73px;
         width: 320px;
         height: 56px;
     }
@@ -1743,14 +2242,289 @@
     .p-box-2 {
         font-size: 23px;
     }
+
+    .sobre-mim-box {
+        margin-bottom: 46px;
+    }
+
+    .sobre-mim {
+        width: 400px;
+        /* top: -58px; */
+        bottom: -43px;
+    }
+
+    .title {
+        margin-bottom: 36px;
+    }
+
+    .perguntas-box {
+        margin-left: 477px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 3px;
+    }
 }
+
+/*DELL LATITUDE*/
+@media screen and (min-width: 1439px) and (max-width: 1440px) {
+    .vitor {
+        width: 450px;
+    }
+    
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    .navbar-brand img {
+        width: 182px;
+        position: relative;
+        top: 12px;
+    }
+
+    .titulo, .subtitulo {
+        text-align: left;
+        margin-left: 121px;
+    }
+
+    .btn {
+        margin-left: -150px;
+        width: 320px;
+        height: 56px;
+    }
+
+    .testemunha-color {
+        background-color: #000000;
+        padding: 48px 0 30px;
+    }
+
+    .p-box-1 {
+        font-size: 21px;
+    }
+
+    .p-box-2 {
+        font-size: 23px;
+    }
+
+    .sobre-mim-box {
+        margin-bottom: 46px;
+    }
+
+    .sobre-mim {
+       width: 414px;
+        /* top: -58px; */
+        bottom: -47px;
+    }
+
+    .title {
+        margin-bottom: 36px;
+    }
+
+     .subtitle {
+        position: relative;
+        left: 12px;
+    }
+
+    .perguntas-box {
+        margin-left: 558px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 3px;
+    }
+}
+
+
+/*Notebook*/
+
+@media screen and (min-width: 1535px) and (max-width: 1536px) {
+
+    .vitor {
+        width: 450px;
+    }
+
+    .cabecalho > * {
+        position: relative;
+        z-index: 2; 
+        bottom: 40px;
+    }
+
+    .navbar-brand img {
+        width: 182px;
+        position: relative;
+        top: 12px;
+    }
+
+    .titulo, .subtitulo {
+        text-align: left;
+        margin-left: 164px;
+    }
+
+    .btn {
+        margin-left: -102px;
+        width: 320px;
+        height: 56px;
+    }
+
+    .testemunha-color {
+        background-color: #000000;
+        padding: 48px 0 30px;
+    }
+
+    .p-box-1 {
+        font-size: 21px;
+    }
+
+    .p-box-2 {
+        font-size: 23px;
+    }
+
+    .sobre-mim-box {
+        margin-bottom: 46px;
+    }
+
+    .sobre-mim {
+        width: 400px;
+        /* top: -58px; */
+        bottom: -43px;
+    }
+
+    .title {
+        margin-bottom: 36px;
+    }
+
+     .subtitle {
+        position: relative;
+        left: 10px;
+    }
+
+    .perguntas-box {
+        margin-left: 598px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 2px;
+    }
+}
+
+/*Macbook PRO*/
+@media screen and (min-width: 1727px) and (max-width: 1728px) {
+    .vitor {
+        width: 480px;
+    }
+
+     .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Mantém o conteúdo acima do gradiente */
+        bottom: 40px;
+    }
+
+    .navbar-brand img {
+        width: 182px;
+        position: relative;
+        top: 4px;
+        right: 63px;
+    }
+
+    .titulo, .subtitulo {
+        text-align: left;
+        margin-left: 204px;
+    }
+
+    .btn {
+        margin-left: -128px;
+        width: 320px;
+        height: 56px;
+    }
+
+    .avisos-text {
+        margin-left: 6px;
+    }
+
+    .box-1 {
+        margin-left: 655px;
+    }
+
+    .p-box-1 {
+        font-size: 19px;
+    }
+
+    .box-2 {
+        margin-left: 655px;
+    }
+
+    .p-box-2 {
+        font-size: 19px;
+    }
+
+    .btnn {
+        width: 429px;
+        margin-right: 4px;
+        margin-top: 60px;
+    }
+
+    .yellow-barr {
+        margin-top: 64px;
+    }
+
+    .sobre-mim-box {
+        margin-bottom: 46px;
+    }
+
+    .sobre-mim-box {
+        width: 500px;
+    }
+
+    .sobre-mim {
+       width: 412px;
+        /* top: -58px; */
+        bottom: -47px;
+    }
+
+    .title {
+        margin-bottom: 32px;
+    }
+
+    .text-overlay {
+        bottom: 36px;
+        padding-bottom: 40px;
+    }
+    
+    .subtitle {
+        position: relative;
+        left: 12px;
+    }
+
+    .perguntas-header {
+        margin-top: 20px;
+    }
+
+    .perguntas-box {
+        margin-left: 700px;
+    }
+
+    .wpp {
+        margin-right: 16px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 2px;
+    }
+}
+
 
 /*PC*/
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1900px) and (max-width: 2047px) {
 
     .vitor {
-        width: 363px;
+        width: 460px;
     }
 
      .cabecalho > * {
@@ -1800,15 +2574,30 @@
     .btnn {
         width: 429px;
         margin-right: 4px;
+        margin-top: 60px;
     }
 
     .yellow-barr {
         margin-top: 64px;
     }
 
+    .sobre-mim-box {
+        margin-bottom: 46px;
+    }
+
     .sobre-mim {
-        top: 12px;
-        width: 360px;
+        width: 400px;
+        /* top: -58px; */
+        bottom: -43px;
+    }
+
+    .title {
+        margin-bottom: 32px;
+    }
+
+    .subtitle {
+        position: relative;
+        left: 10px;
     }
 
     .text-overlay {
@@ -1821,11 +2610,147 @@
     }
 
     .perguntas-box {
-        margin-left: 49.938rem;
+        margin-left: 792px;
+    }
+
+    .wpp {
+        margin-right: 16px;
     }
 
     .footer-img {
         position: relative;
-        right: 4px;
+        right: 6px;
+    }
+}
+
+/*PC*/
+
+@media screen and (min-width: 2048px) {
+
+    .vitor {
+        width: 520px;
+    }
+
+     .cabecalho > * {
+        position: relative;
+        z-index: 2; /* Mantém o conteúdo acima do gradiente */
+        bottom: 40px;
+    }
+
+    .navbar-brand img {
+        width: 182px;
+        position: relative;
+        top: 4px;
+        right: 63px;
+    }
+
+    .titulo, .subtitulo {
+        text-align: left;
+        margin-left: 361px;
+    }
+
+    .btn {
+        margin-left: 22px;
+        width: 320px;
+        height: 56px;
+    }
+
+    .avisos-text {
+        margin-left: 6px;
+    }
+
+    .box-1 {
+        margin-left: 810px;
+    }
+
+    .img-antes, .img-depois {
+        width: 400px;
+        height: 493px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .carousel-content {
+        gap: 40px;
+    }
+
+    .objective {
+        background-color: #FECA0E;
+        margin-top: 10px;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Inter", serif;
+        text-align: center;
+        width: 250px;
+        height: 60px;
+        border: 1px solid;
+        border-radius: 3px;
+    }
+
+    .biceps {
+        width: 26px;
+    }
+
+    .p-box-1 {
+        font-size: 19px;
+    }
+
+    .box-2 {
+        margin-left: 810px;
+    }
+
+    .p-box-2 {
+        font-size: 19px;
+    }
+
+    .btnn {
+        width: 429px;
+        margin-right: 4px;
+        margin-top: 60px;
+    }
+
+    .yellow-barr {
+        margin-top: 64px;
+    }
+
+    .sobre-mim-box {
+        margin-bottom: 46px;
+    }
+
+    .sobre-mim {
+        width: 400px;
+        /* top: -58px; */
+        bottom: -43px;
+    }
+
+    .title {
+        margin-bottom: 32px;
+    }
+
+    .subtitle {
+        position: relative;
+        left: 10px;
+    }
+
+    .text-overlay {
+        bottom: 36px;
+        padding-bottom: 40px;
+    }
+
+    .perguntas-header {
+        margin-top: 20px;
+    }
+
+    .perguntas-box {
+        margin-left: 860px;
+    }
+
+    .wpp {
+        margin-right: 16px;
+    }
+
+    .footer-img {
+        position: relative;
+        right: 2px;
     }
 }
